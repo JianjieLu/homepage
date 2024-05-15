@@ -1,0 +1,62 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "NaXiDaqwq.moc3",
+		"Textures": [
+			"NaXiDaqwq.2048/texture_00.png",
+			"NaXiDaqwq.2048/texture_01.png",
+			"NaXiDaqwq.2048/texture_02.png",
+			"NaXiDaqwq.2048/texture_03.png",
+			"NaXiDaqwq.2048/texture_04.png",
+			"NaXiDaqwq.2048/texture_05.png"
+		],
+		"Physics": "NaXiDaqwq.physics3.json",
+		"DisplayInfo": "NaXiDaqwq.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "faguang",
+				"File": "Nahida_1080/StarEye.exp3.json"
+			},
+			{
+				"Name": "heilian",
+				"File": "Nahida_1080/black.exp3.json"
+			},
+			{
+				"Name": "kuku",
+				"File": "Nahida_1080/Sad1.exp3.json"
+			},
+			{
+				"Name": "mogu",
+				"File": "Nahida_1080/kusa.exp3.json"
+			},
+			{
+				"Name": "shengqi",
+				"File": "Nahida_1080/Angry.exp3.json"
+			},
+			{
+				"Name": "xiaohuahua",
+				"File": "Nahida_1080/Happy1.exp3.json"
+			},
+			{
+				"Name": "wink",
+				"File": "Nahida_1080/Wink.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
